@@ -1,5 +1,5 @@
 /*
-O Princípio de Substituição de Liskov (LSP) afirma que objetos de uma classe 
+O Liskov Substituition Principle (LSP) afirma que objetos de uma classe 
 derivada devem ser substituíveis por objetos da classe base sem alterar o 
 comportamento do programa. 
 
