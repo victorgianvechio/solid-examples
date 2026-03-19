@@ -12,6 +12,8 @@ No exemplo abaixo, temos uma classe base `Pagamento` e duas subclasses
 
 A classe `Pagamento` tem um método `estornar`, mas a classe `PagamentoPix` 
 não pode estornar pagamentos, o que viola o LSP.
+
+“Se alguém assume um papel, ele precisa cumprir corretamente”
 */
 
 // SEM APLICAR LSP
