@@ -8,3 +8,32 @@
 
   “Não obrigue alguém a assumir um papel que ele não consegue cumprir”
 */
+
+// SEM APLICAR ISP
+class Trabalhador {
+  trabalhar() {}
+  cozinhar() {}
+  dirigir() {}
+}
+
+class Programador extends Trabalhador {
+  trabalhar() {
+    console.log('Programando...');
+  }
+
+  cozinhar() {} // 😐 não usa
+  dirigir() {}  // 😐 não usa
+}
+
+// APLICANDO ISP
+class Trabalhador {
+  trabalhar() {} 
+}
+
+class Cozinheiro {
+  cozinhar() {}
+}
+
+class dirigir {
+  dirigir() {}
+}
